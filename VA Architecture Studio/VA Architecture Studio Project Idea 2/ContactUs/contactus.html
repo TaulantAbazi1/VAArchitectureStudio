@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../ContactUs/contactus.css">
+</head>
+<body>
+    <div class="banner">
+        <div class="navbar">
+          <img src="" class="logo" />
+          <ul>
+            <li><a href="../Home/home.html">Home</a></li>
+            <li><a href="../AboutUs/aboutus.html">About Us</a></li>
+            <li><a href="../Projects/projects.html">Outside projects</a></li>
+            <li><a href="../Interiors/interiors.html">Interiors</a></li>
+            <li><a href="../Backyards/backyards.html">Backyards</a></li>
+          </ul>
+        </div>
+
+        <div>
+            <h1>Contact Us / Na Kontaktoni</h1>
+        </div>
+
+        <div class="container">
+            <form action="action_page.php">
+          
+              <label for="fname">First Name / Emri</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name... / Emri juaj..." required>
+          
+              <label for="lname">Last Name / Mbiemri</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name... / Mbiemri juaj..." required>
+
+              <label for="email">Email / Adresa elektronike (Optional / Opsionale)</label>
+              <input type="email" id="email" name="email" placeholder="Your email.. / Adresa juaj elektronike...">
+
+              <label for="tel">Phone Number / Numri i telefonit </label>
+              <input type="tel" id="tel" name="tel" placeholder="Your phone number... / Numri i telefonit tuaj..." required>
+          
+              <label for="country">Country / Shteti</label>
+              <select id="country" name="country">
+                <option value="Kosove">Kosovo / Kosove</option>
+                <option value="Shqiperi">Albania / Shqiperi</option>
+                <option value="Serbi">Serbia / Serbi</option>
+                <option value="Maqedoni">North Macedonia / Maqedonia Veriore</option>
+              </select>
+          
+              <input type="submit" value="Submit / Dergo">
+          
+            </form>
+          </div>
+      </div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact-Us</title>
+    <link rel="stylesheet" href="main.css" />
+    <script defer src="main.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <form action="/" id="contact-form" method="GET">
+            <label for="fname">Emri</label>
+            <input type="text" id="fname" class="an-input" name="firstname" placeholder="Emri juaj..." />
+            <p class="">* Ju lutem plotësoni emrin</p>
+
+            <label for="lname">Mbiemri</label>
+            <input type="text" id="lname" class="an-input" name="lastname" placeholder="Mbiemri juaj..." />
+            <p class="">* Ju lutem plotësoni mbiemrin</p>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" class="an-input" name="email" placeholder="Emaili juaj..." />
+            <p class="">* Ju lutem plotësoni emailin</p>
+
+            <label for="country">Shteti</label>
+            <select id="country" class="an-input" name="country">
+        <option></option>
+        <option value="kosova">Kosova</option>
+        <option value="shqiperia">Shqiperia</option>
+        <option value="maqedonia">Maqedonia</option>
+        <option value="serbia">Serbia</option>
+      </select>
+            <p class="">* Ju lutem zgjedhni një shtet</p>
+
+            <label for="subject">Tema</label>
+            <textarea id="subject" name="subject" placeholder="Shkruani diçka..." class="an-input" style="height: 200px"></textarea>
+            <p class="">* Ju lutem shkruani një mesazh</p>
+
+            <br />
+            <input type="submit" id="submit" value="Submit" />
+        </form>
+    </div>
+</body>
+
+</html>

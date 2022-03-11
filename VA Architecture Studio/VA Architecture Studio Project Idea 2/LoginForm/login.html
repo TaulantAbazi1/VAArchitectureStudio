@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="../LoginForm/login.css">
+</head>
+<body>
+
+    <div class="banner">
+        <div class="navbar">
+          <img src="" class="logo" />
+          <ul>
+            <li><a href="../LoginForm/login.html">Home</a></li>
+            <li><a href="../LoginForm/login.html">About Us</a></li>
+            <li><a href="../LoginForm/login.html">Outside projects</a></li>
+            <li><a href="../LoginForm/login.html">Interiors</a></li>
+            <li><a href="../LoginForm/login.html">Backyards</a></li>
+          </ul>
+        </div>
+        <br><br>
+        <h1>Please Login</h1>
+        <h3>After login you will be able to fully acces the page</h3>
+        <form action="action_page.php" method="post">
+            <div class="imgcontainer">
+              <img src="img_avatar2.png" alt="Avatar" class="avatar">
+            </div>
+          
+            <div class="container">
+              <label for="uname"><b>Username</b></label>
+              <input type="text" placeholder="Enter Username" name="uname" required>
+          
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+          
+              <button type="submit" onclick="window.location.href='../Home/home.html'">Login</button>
+              <label>
+                <input type="checkbox" checked="checked" name="remember"><b> Remember me</b>
+              </label>
+            </div>
+          
+            <div class="container" style="background-color:#04AA6D">
+              <button type="button" class="cancelbtn">Cancel</button>
+              <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+          </form>
+    
+      </div>
+</body>
+</html>
